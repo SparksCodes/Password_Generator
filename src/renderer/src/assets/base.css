@@ -1,0 +1,45 @@
+:root {
+
+  /* Es buena práctica generar aquí todas las variables como colores y tamaños */
+
+  --primary-bg: #fffce8ff;
+  --secundary-bg: #b7f4b1ff;
+  --third-bg: #3c443fff;
+
+  --primary-letters: #3c443fff;
+  --secundary-letters: #b7f4b1ff;
+
+  --output-bg: #ccccccff;
+  --output-letters: #ff8080ff;
+
+  --firstSquare-bg: rgb(255, 255, 255);
+  --secondSquare-bg: #d9ffbfff;
+
+}
+
+:root {
+
+  /* Aquí de deben usar la las variables para asiganr los colores */
+
+  --color-background: var(--ev-c-black);
+  --color-background-soft: var(--ev-c-black-soft);
+  --color-background-mute: var(--ev-c-black-mute);
+
+  --color-text: var(--ev-c-text-1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  user-select: none;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

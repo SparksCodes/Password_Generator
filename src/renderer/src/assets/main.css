@@ -1,0 +1,16 @@
+@import './base.css';
+
+.general {
+  display: grid;
+  grid-template-columns: 460px 1fr;
+}
+
+.leftSide {
+  background-color: var(--primary-bg);
+  min-height: 100vh;
+}
+
+.rightSide {
+  background-color: var(--secundary-bg);
+  min-height: 100vh;
+}
